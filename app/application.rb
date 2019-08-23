@@ -14,7 +14,7 @@ def call(env)
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
-      resp.write "You Lose"
+      resp.write "You Suck"
     end
  
     resp.finish
